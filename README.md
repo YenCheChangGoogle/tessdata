@@ -1,6 +1,7 @@
 tessdata
 
 (1) 下載tess4j-4.5.4.jar
+
     tess4j是hp 在20sh世紀90年代研發，最後貢獻給google 的 開源專案 自版本3.0.2後支援了對中文字型檔的識別
     <dependency>
       <groupId>net.sourceforge.tess4j</groupId>
@@ -9,7 +10,9 @@ tessdata
     </dependency>
 
 (2) 下載語言包 tessdata (https://github.com/YenCheChangGoogle/tessdata) 資料解壓縮後 放置於 D:/Senao/github.com/SpringBoot2RestAPI/utils/OCR/tessdata-master 目錄
+
 (3) 識別中文所以下載語言包 chi 字眼開頭的 chi_sim.traineddata, chi_sim_vert.traineddata, chi_tra.traineddata, chi_tra_vert.traineddata, chr.traineddata
+
 (4) jdk 版本必須1.7以上
 
 ========
